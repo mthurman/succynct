@@ -48,6 +48,17 @@
       "matches": [ "*://twitter.com/intent/tweet*" ],
       "css": [ "css/content_twitter.css" ],
       "js": [ "libs/jquery-min.js", "js/content_twitter.js" ]
+    },
+    {
+      "matches": [ "https://alpha.app.net/*" ],
+      "exclude_matches": [ "https://alpha.app.net/*/post/*" ],
+      "css": [ "css/content_adn.css" ],
+      "js": [ "libs/jquery-min.js", "libs/mutation_summary.js", "js/content_adn.js" ]
+    },
+    {
+      "matches": [ "https://alpha.app.net/*/post/*" ],
+      "css": [ "css/content_adn.css" ],
+      "js": [ "libs/jquery-min.js", "js/content_adn_thread.js" ]
     }
   ],
   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"

@@ -23,7 +23,7 @@ window.Config = Backbone.Model.extend({
    * Blacklist of values that are not user changeable
    */
   blacklist: {
-    clientId: 'Yfqy8sQ6DthWrqnpAyrK9aqSAR7gDcJd', // Succynct
+    clientId: 'pj492zhRnDzfvjcBk9Xug6WTwyvSXKgC', // Succynct
     googleAnalyticsAccount: 'UA-2706568-45',
     authorizeBaseUrl: 'https://account.app.net/oauth/authorize',
     authenticateBaseUrl: 'https://account.app.net/oauth/authenticate',
